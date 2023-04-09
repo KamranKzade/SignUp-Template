@@ -257,7 +257,7 @@ menu>h3 span {
 
 
 menu #web {
-    width: 100%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -287,7 +287,7 @@ menu .web3 h3 {
     background-color: #8B9CBF;
     color: white;
     font-size: 2em;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 menu .web1 i {
