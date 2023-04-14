@@ -49,6 +49,8 @@ header {
 }
 
 .blank input {
+    outline: none;
+    border: none;
     width: 95%;
     margin: auto;
     margin-top: 20px;
@@ -64,13 +66,9 @@ header {
     display: inline-block;
 }
 
-    .blank input:hover {
-        border: 2px solid #C6E2E6;
-        background-color: #EDF8F7;
-    }
-
     .blank input:focus {
         border: 2px solid #C6E2E6;
+        background-color: #EDF8F7;
     }
 
 #password,
