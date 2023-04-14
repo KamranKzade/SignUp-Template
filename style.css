@@ -11,35 +11,35 @@ header {
     padding-bottom: 200px;
 }
 
-header>section {
-    background-color: #FFFFFF;
-    width: 60%;
-    margin: auto;
-    padding: 0px 70px;
-}
+    header > section {
+        background-color: #FFFFFF;
+        width: 60%;
+        margin: auto;
+        padding: 0px 70px;
+    }
 
-header>section>h3 {
-    padding-top: 55px;
-    color: #6B7B8A;
-    font-size: 2.1em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-bottom: 30px;
-    font-weight: 545;
-}
+        header > section > h3 {
+            padding-top: 55px;
+            color: #6B7B8A;
+            font-size: 2.1em;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-bottom: 30px;
+            font-weight: 545;
+        }
 
-header>section>h5 {
-    color: #6B7B8A;
-    font-size: 1.25em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-bottom: 55px;
-    font-weight: 200;
-}
+        header > section > h5 {
+            color: #6B7B8A;
+            font-size: 1.25em;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-bottom: 55px;
+            font-weight: 200;
+        }
 
-header .blank {
-    text-align: left;
-    width: 100%;
-    margin: auto;
-}
+    header .blank {
+        text-align: left;
+        width: 100%;
+        margin: auto;
+    }
 
 .blank label {
     color: #6B7B8A;
@@ -64,14 +64,14 @@ header .blank {
     display: inline-block;
 }
 
-.blank input:hover {
-    border: 2px solid #C6E2E6;
-    background-color: #EDF8F7;
-}
+    .blank input:hover {
+        border: 2px solid #C6E2E6;
+        background-color: #EDF8F7;
+    }
 
-.blank input:focus {
-    border: 2px solid #C6E2E6;
-}
+    .blank input:focus {
+        border: 2px solid #C6E2E6;
+    }
 
 #password,
 #conpassword {
@@ -147,26 +147,26 @@ menu {
     height: 150vh;
 }
 
-menu>h3 {
-    margin-left: 135px;
-    color: #FFFFFF;
-    font-size: 3.2em;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
-}
+    menu > h3 {
+        margin-left: 135px;
+        color: #FFFFFF;
+        font-size: 3.2em;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+    }
 
-menu>p {
-    margin-left: 135px;
-    color: #FFFFFF;
-    font-size: 1.5em;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 300;
-}
+    menu > p {
+        margin-left: 135px;
+        color: #FFFFFF;
+        font-size: 1.5em;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+    }
 
-menu>h3 span {
-    color: #81D165;
-    font-weight: 300;
-}
+    menu > h3 span {
+        color: #81D165;
+        font-weight: 300;
+    }
 
 #menuSection {
     width: 43%;
@@ -179,36 +179,35 @@ menu>h3 span {
     border: 0;
     box-shadow: 1px 1px 3px 3px gray;
     height: 50vh;
-
 }
 
-#menuSection .boxes {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-}
+    #menuSection .boxes {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
 
-#menuSection .boxes .box1 {
-    width: 15%;
-    margin: auto;
-}
+        #menuSection .boxes .box1 {
+            width: 15%;
+            margin: auto;
+        }
 
-#menuSection .boxes .box2 {
-    width: 85%;
-    margin: auto;
-    text-align: left;
-}
+        #menuSection .boxes .box2 {
+            width: 85%;
+            margin: auto;
+            text-align: left;
+        }
 
-.box2>h3 {
+.box2 > h3 {
     font-size: 2.0em;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 400;
 }
 
-.box2>p {
+.box2 > p {
     font-size: 1.2em;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -216,7 +215,7 @@ menu>h3 span {
 }
 
 
-#menuSection .box1>.circle {
+#menuSection .box1 > .circle {
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -225,7 +224,7 @@ menu>h3 span {
     margin-left: -50px
 }
 
-.web2>.circle {
+.web2 > .circle {
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -248,12 +247,12 @@ menu>h3 span {
     font-size: 2em;
 }
 
-.circle a i {
-    margin-top: 25px;
-    margin-left: 25px;
-    font-size: 1.5em;
-    color: white;
-}
+    .circle a i {
+        margin-top: 25px;
+        margin-left: 25px;
+        font-size: 1.5em;
+        color: white;
+    }
 
 
 menu #web {
@@ -274,13 +273,13 @@ menu .web1,
     justify-content: baseline;
 }
 
-menu .web1 h3 {
-    padding: 5px;
-    background-color: #8CD6F4;
-    color: white;
-    font-size: 2em;
-    padding-left: 15px;
-}
+    menu .web1 h3 {
+        padding: 5px;
+        background-color: #8CD6F4;
+        color: white;
+        font-size: 2em;
+        padding-left: 15px;
+    }
 
 menu .web3 h3 {
     padding: 5px;
@@ -298,7 +297,7 @@ menu .web1 i {
 }
 
 
-.web3  i {
+.web3 i {
     background-color: #7184AB;
     font-size: 2em;
     color: white;
